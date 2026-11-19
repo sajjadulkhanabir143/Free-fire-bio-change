@@ -28,7 +28,7 @@ Run the following commands step by step in Termux:
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git clang -y
-git clone [https://github.com/sajjadulkhanabir143/Free-fire-bio-change.git](https://github.com/sajjadulkhanabir143/Free-fire-bio-change.git)
+git clone https://github.com/sajjadulkhanabir143/Free-fire-bio-change.git
 cd Free-fire-bio-change
 pip install -r requirements.txt
 python bio_changer.py
