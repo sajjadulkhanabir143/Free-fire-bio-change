@@ -2,8 +2,8 @@ import os
 import sys
 import requests
 import urllib3
-from Cryptodome.Cipher import AES
-from Cryptodome.Util.Padding import pad
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
 from google.protobuf.descriptor_pb2 import DescriptorProto, FieldDescriptorProto
 from google.protobuf.descriptor import MakeDescriptor
 from google.protobuf.message_factory import GetMessageClass
@@ -18,7 +18,7 @@ YELLOW = "\033[93m"
 BOLD = "\033[1m"
 RESET = "\033[0m"
 
-BANNER = f"""{CYAN}{BOLD}
+BANNER = rf"""{CYAN}{BOLD}
 ====================================================
    ____    _       _   _   _    ____  _   _ _     
   / ___|  / \     | | | | / \  |  _ \| | | | |    
